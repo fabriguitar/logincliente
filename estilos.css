@@ -1,0 +1,60 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.principal{
+    width:100vw;
+    height:100vh; 
+    background: url(img/fondo2.png.png) no-repeat center center fixed;
+    background-color: #CE9422;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-prueba{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between ;
+	align-items: center;
+	align-content: stretch;
+   
+}
+
+.icono-salir{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+}
+.boton{
+  
+width: 121px;
+height: 28px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 28px;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+color: #4C33E7;
+
+
+
+}
